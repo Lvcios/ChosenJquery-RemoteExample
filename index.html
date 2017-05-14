@@ -54,18 +54,25 @@
         <h1>Chosen Jquery with remote data</h1>
       </div>
       <div class="row">
-          <div class="col-md-6 col-md-offset-4">
+          <div class="col-md-6 chosen-multiple">
               <form class="form" role="form">
                 <div class="form-group">
-                    <select class="chosen form-control" id="chosen-remote" multiple>
-
-                    </select>
+                  <label class="control-label">Multiple select</label>
+                  <select class="chosen-select form-control" id="chosen-remote-multiple" multiple>
+                    <option disabled></option>
+                  </select>
                 </div>
             </form>
           </div>
-          <br/>
-          <div class="col-md-6 col-md-offset-4 result">              
-              
+          <div class="col-md-6 chosen-single">
+              <form class="form" role="form">
+                <div class="form-group">
+                  <label class="control-label">Single select</label>
+                  <select class="chosen-select form-control" id="chosen-remote-single">
+                    <option disabled></option>
+                  </select>
+                </div>
+            </form>
           </div>
       </div>
     </div><!-- /.container -->
